@@ -1,0 +1,28 @@
+Lista 02 - Introdução a JS:
+
+1. Crie um programa o qual:  
+a) Tenha o campo "Cidade Natal"  
+b) Tenha o campo "Ano de nascimento"  
+c) Tenha o botão "Cadastrar"  
+d) Ao clicar no botão, deve aparecer uma caixa de alerta com a frase:  
+   " Você nasceu na cidade de X em Y"  - Onde X é o valor do campo em a) e Y é o valor do campo em b)  
+   
+
+2. Crie uma página que solicite ao usuário que digite seu peso e altura.  
+a) Deve haver um botão com o texto "Fale comigo".  
+b) Ao clicar no botão, deve aparecer uma frase como esta numa caixinha de alerta:  
+     "Você pesa X e tem Y de altura" - Onde X e Y são os valores que o usuário digitou, claro  
+  
+
+3. Crie uma página que solicite ao usuário que digite o nome do time que torce e quantos títulos o clube dele possui.  
+a) Deve haver um botão com o texto "Amo meu time".  
+b) Ao clicar no botão, deve aparecer uma frase como está numa caixinha de alerta:  
+     "O time X tem Y títulos" - Onde X e Y são os valores que o usuário digitou, claro  
+  
+  
+4. Crie uma página que solicite ao usuário que digite o nome da rua/avenida/vila e o número da casa onde mora.  
+a) Deve haver um botão com o texto "Onde eu moro".  
+b) Ao clicar no botão, deve aparecer uma frase como esta na página:  
+     "Seu logradouro é X" - Onde X é o valor que o usuário digitou no primeiro campo  
+c) Na sequência da mensagem acima, deve aparecer:  
+     "O número do seu logradouro é Y"  - Onde Y é o valor que o usuário digitou no segundo campo  
