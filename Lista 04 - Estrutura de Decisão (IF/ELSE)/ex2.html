@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    Qtd latinhas por dia: <input type="text" id="input_latinha">
+    <button onclick="contar()">Quantos refris?</button>
+    <div id="div_mensagem"></div>
+</body>
+</html>
+<script>
+    
+    function contar(){
+        let lata = Number(input_latinha.value);
+        let lata_ano = lata * 365;
+        div_mensagem.innerHTML = "";
+
+        div_mensagem.innerHTML +=`Você toma ${lata_ano} latinhas por ano <br>`;
+            if(lata_ano >= 500){
+                div_mensagem.innerHTML +=`Cuidado com a diabetes!`;
+            }
+    }
+</script>
