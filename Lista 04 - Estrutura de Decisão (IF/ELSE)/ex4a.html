@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    Valor da pizza: <input type="text" id="input_pizza"><br>
+    qtd amigos: <input type="text" id="input_amigo"><br>
+    <button onclick="contar()">Rola Pizza?</button>
+    <div id="div_mensagem"></div>
+
+
+</body>
+</html>
+<script>
+
+    function contar(){
+        let pizza = Number(input_pizza.value);
+        let amigo = Number(input_amigo.value);
+        let pizza_amigo = pizza / amigo;
+        div_mensagem.innerHTML=``;
+        
+        div_mensagem.innerHTML += `Cada amigo vai pagar ${pizza_amigo} pela pizza <br>`;
+        if(pizza_amigo > 20){
+                div_mensagem.innerHTML +=`    <b><i><span style="color: red;">Deu ruim! Pizza muito cara!</span></i></b>`;
+        }
+    }
+    
+</script>
